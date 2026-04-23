@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Befor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --accent: #3D5AFE;
+    --text: #1A1A1A;
+    --body: #374151;
+    --muted: #6B7280;
+    --subtle: #9CA3AF;
+    --rule: #E5E7EB;
+    --info-bg: #EFF6FF;
+    --info-text: #1e40af;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #ffffff;
+    color: var(--body);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 0 0 8px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text);
+    margin: 32px 0 12px;
+  }
+  h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--body);
+    margin: 16px 0 8px;
+  }
+  p {
+    font-size: 15px;
+    color: var(--body);
+    margin: 0 0 12px;
+  }
+  strong { color: var(--text); font-weight: 600; }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 12px;
+  }
+  ul li {
+    position: relative;
+    padding: 4px 0 4px 20px;
+    font-size: 15px;
+    color: var(--body);
+  }
+  ul li::before {
+    content: "•";
+    position: absolute;
+    left: 4px;
+    color: var(--subtle);
+  }
+  a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  a:hover { text-decoration: underline; }
+  .meta {
+    font-size: 14px;
+    color: var(--muted);
+    margin: 0 0 4px;
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid var(--rule);
+    margin: 28px 0;
+  }
+  .info-box {
+    background: var(--info-bg);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin: 14px 0;
+    font-size: 14px;
+    color: var(--info-text);
+  }
+  .info-box strong { color: var(--info-text); font-weight: 600; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0 16px;
+    font-size: 14px;
+  }
+  th {
+    text-align: left;
+    background: #F9FAFB;
+    color: var(--text);
+    font-weight: 600;
+    padding: 10px 12px;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+  }
+  td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--rule);
+    color: var(--body);
+    vertical-align: top;
+  }
+  td:first-child { border-right: 1px solid var(--rule); width: 40%; }
+  .link-list { display: flex; flex-direction: column; gap: 8px; margin: 8px 0 16px; }
+  .footnote {
+    font-size: 13px;
+    color: var(--subtle);
+    font-style: italic;
+    text-align: center;
+    margin-top: 24px;
+  }
+  @media (max-width: 600px) {
+    .container { padding: 32px 20px 60px; }
+    h1 { font-size: 24px; }
+    h2 { font-size: 16px; }
+  }
+</style>
+</head>
+<body>
+<main class="container">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Befor — Link Safety Scanner<br>Last updated: April 23, 2026</p>
+
+  <hr>
+
+  <h2>1. Who We Are</h2>
+  <p>Befor is a mobile security application that helps you verify the safety of links, QR codes, and images before interacting with them. This Privacy Policy explains what data we collect, how we use it, who we share it with, and what rights you have over your information.</p>
+  <p>This policy applies to the Befor app available on Google Play and the Apple App Store, and to our backend services.</p>
+
+  <hr>
+
+  <h2>2. What Data We Collect</h2>
+  <h3>Data you provide</h3>
+  <ul>
+    <li><strong>Email address</strong> — only if you create an account. Used solely for authentication via magic link sign-in.</li>
+    <li><strong>Scan inputs</strong> — URLs, QR codes, and images you choose to scan. These are sent to our server to perform the safety analysis you requested.</li>
+    <li><strong>Clipboard content (optional)</strong> — if you enable Auto-Scan Clipboard in Settings, Befor reads the most recent clipboard item while the app is active to detect if it contains a link. Clipboard content is never stored or transmitted; a URL is only sent for analysis if you explicitly choose to scan it.</li>
+  </ul>
+
+  <h3>Data we collect automatically</h3>
+  <ul>
+    <li><strong>Scan history</strong> — the URLs and verdicts from your scans, stored against your account so you can review previous results.</li>
+    <li><strong>Device locale</strong> — your country/region setting, used to search local reputation sources in your language. Not linked to your identity.</li>
+    <li><strong>Scan counts and plan status</strong> — the number of scans you have used and your plan status, to enforce your plan limits.</li>
+  </ul>
+
+  <h3>Data we do NOT collect</h3>
+  <ul>
+    <li>Your name or physical address</li>
+    <li>Your GPS location</li>
+    <li>Your contacts or call history</li>
+    <li>Advertising identifiers (IDFA / GAID)</li>
+    <li>Data from other apps on your device</li>
+  </ul>
+
+  <hr>
+
+  <h2>3. How We Analyse Your Scans</h2>
+  <p>When you scan a URL, QR code, or image, your input is transmitted over an encrypted HTTPS connection to our secure backend. We use the following third-party AI and security services to perform the analysis:</p>
+  <ul>
+    <li><strong>Google Gemini AI</strong> — analyses the content of the page and searches for known risk signals. Your URL or image is sent to Google's servers for this purpose.</li>
+    <li><strong>Perplexity Sonar</strong> — searches the web for reviews, complaints, and suspicious activity reports related to the domain you are scanning.</li>
+    <li><strong>Google Web Risk</strong> — checks the URL against Google's database of known malicious websites.</li>
+    <li><strong>URLhaus (abuse.ch)</strong> — checks the URL against a real-time database of active malware distribution sites.</li>
+    <li><strong>Cloudflare DNS</strong> — verifies the domain's DNS health and configuration.</li>
+    <li><strong>Trustpilot</strong> — retrieves publicly available business reviews for the domain.</li>
+    <li><strong>Reddit</strong> — searches public community posts for suspicious activity reports or warnings about the domain.</li>
+  </ul>
+  <p>Your scan input is shared with these services solely to perform the analysis you requested. None of these services receive your email address or account information.</p>
+  <p><strong>Images:</strong> When you upload a screenshot for scanning, it is sent to Google Gemini AI for visual analysis only. We do not store your images — they are analysed and immediately discarded. Images are never used to train AI models.</p>
+
+  <hr>
+
+  <h2>4. Data Storage &amp; Location</h2>
+  <p>Your account data and scan history are stored using <strong>Supabase</strong>, a cloud database platform with SOC 2 Type II compliance and encryption at rest and in transit.</p>
+  <div class="info-box">
+    Our Supabase database is hosted in the <strong>European Union (EU)</strong>. If you are located in the EU or EEA, your data does not leave the EU.
+  </div>
+  <ul>
+    <li>All data is encrypted at rest using AES-256.</li>
+    <li>All data is encrypted in transit using TLS 1.2 or higher.</li>
+    <li>API keys and secrets are stored in server-side environment variables — never in the app itself.</li>
+  </ul>
+
+  <hr>
+
+  <h2>5. Data Retention</h2>
+  <table>
+    <thead>
+      <tr><th>Data type</th><th>How long we keep it</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Email address</td><td>Until you delete your account</td></tr>
+      <tr><td>Scan history</td><td>Until you delete it or close your account</td></tr>
+      <tr><td>Device locale</td><td>Not stored — used per-scan only</td></tr>
+      <tr><td>Images</td><td>Not stored — discarded immediately after analysis</td></tr>
+      <tr><td>Scan statistics (aggregate)</td><td>Up to 24 months</td></tr>
+    </tbody>
+  </table>
+  <p>When you delete your account, all associated data — including your email address and scan history — is permanently deleted within 30 days.</p>
+
+  <hr>
+
+  <h2>6. In-App Purchases</h2>
+  <p>Befor offers top-up scan packs available for purchase inside the app. All payments are processed by:</p>
+  <ul>
+    <li><strong>Google Play Billing</strong> — for purchases made on Android devices.</li>
+    <li><strong>Apple App Store / StoreKit</strong> — for purchases made on iOS devices.</li>
+    <li><strong>RevenueCat</strong> — a purchase management platform that tracks your purchase status across platforms.</li>
+  </ul>
+  <p>Befor does not process or store your payment card details. All payment information is handled exclusively by Google, Apple, and RevenueCat under their respective privacy policies. We only receive confirmation of whether a purchase was successful and which plan you purchased.</p>
+
+  <hr>
+
+  <h2>7. Your Rights</h2>
+  <p>Under GDPR (if you are in the EU/EEA) and similar laws worldwide, you have the following rights over your personal data:</p>
+  <ul>
+    <li><strong>Right to Access</strong> — you can request a copy of all personal data we hold about you.</li>
+    <li><strong>Right to Deletion</strong> — you can request permanent deletion of your account and all associated data. We will fulfil this within 30 days.</li>
+    <li><strong>Right to Portability</strong> — you can request your data in a structured, machine-readable format (JSON).</li>
+    <li><strong>Right to Correction</strong> — you can request correction of any inaccurate personal data.</li>
+    <li><strong>Right to Restrict Processing</strong> — you can ask us to stop using your data in certain ways while a complaint is being investigated.</li>
+    <li><strong>Right to Object</strong> — you can object to our processing of your data where we rely on legitimate interests.</li>
+    <li><strong>Right to Withdraw Consent</strong> — where processing is based on your consent, you can withdraw it at any time.</li>
+  </ul>
+  <p>To exercise any of these rights, contact us at the email address in Section 13. We will respond within 30 days. No fee is charged for reasonable requests.</p>
+  <p><strong>EU/EEA users:</strong> If you believe we have handled your data unlawfully, you have the right to lodge a complaint with your local data protection authority (e.g. the ICO in the UK, the CNIL in France, or the BfDI in Germany).</p>
+  <p><strong>California users (CCPA):</strong> You have the right to know what personal information we collect, to request deletion, and to opt out of any sale of personal information. We do not sell personal information.</p>
+
+  <hr>
+
+  <h2>8. Data Sharing &amp; Third Parties</h2>
+  <p><strong>We do not sell your data.</strong> We do not share your personal information with advertisers, data brokers, or any third party for marketing purposes.</p>
+  <p>We share data only in the following limited circumstances:</p>
+  <ul>
+    <li><strong>Service providers</strong> — the third-party services listed in Section 3 receive only the minimum data needed to perform the analysis (the URL or image you submitted).</li>
+    <li><strong>Payment processors</strong> — Google, Apple, and RevenueCat receive purchase confirmation as described in Section 6.</li>
+    <li><strong>Legal requirements</strong> — we may disclose data if required by law, court order, or to protect the rights and safety of our users.</li>
+  </ul>
+
+  <hr>
+
+  <h2>9. Children's Privacy</h2>
+  <p>Befor is not directed at children under the age of 13 (or 16 in the EU under GDPR). We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us immediately and we will delete it.</p>
+
+  <hr>
+
+  <h2>10. Security Measures</h2>
+  <p>We take security seriously. Your data is protected by:</p>
+  <ul>
+    <li>HTTPS/TLS encryption for all data in transit</li>
+    <li>AES-256 encryption at rest for all stored data</li>
+    <li>API keys and credentials stored exclusively in server-side secure environment variables</li>
+    <li>Row-level security policies in our database</li>
+    <li>Rate limiting to prevent abuse and brute-force attacks</li>
+    <li>No storage of payment card or financial details</li>
+  </ul>
+
+  <hr>
+
+  <h2>11. Third-Party Services &amp; Their Policies</h2>
+  <p>The following third-party services process data on our behalf. Each operates under its own privacy policy:</p>
+  <div class="link-list">
+    <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gemini AI — policies.google.com/privacy</a>
+    <a href="https://perplexity.ai/privacy-policy" target="_blank" rel="noopener">Perplexity AI — perplexity.ai/privacy-policy</a>
+    <a href="https://cloud.google.com/terms/data-processing-terms" target="_blank" rel="noopener">Google Web Risk — cloud.google.com/terms/data-processing-terms</a>
+    <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Supabase — supabase.com/privacy</a>
+    <a href="https://revenuecat.com/privacy" target="_blank" rel="noopener">RevenueCat — revenuecat.com/privacy</a>
+    <a href="https://abuse.ch/privacy-policy" target="_blank" rel="noopener">URLhaus / abuse.ch — abuse.ch/privacy-policy</a>
+    <a href="https://legal.trustpilot.com/privacy-policy" target="_blank" rel="noopener">Trustpilot — legal.trustpilot.com/privacy-policy</a>
+    <a href="https://cloudflare.com/privacypolicy" target="_blank" rel="noopener">Cloudflare — cloudflare.com/privacypolicy</a>
+  </div>
+
+  <hr>
+
+  <h2>12. Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time to reflect changes in our practices or legal requirements. When we make significant changes, we will:</p>
+  <ul>
+    <li>Update the "Last updated" date at the top of this policy</li>
+    <li>Send an email notification to users with registered accounts</li>
+    <li>Display an in-app notice for material changes</li>
+  </ul>
+  <p>Continued use of Befor after the effective date of any changes constitutes your acceptance of the updated policy. If you do not agree with the changes, you may delete your account at any time.</p>
+
+  <hr>
+
+  <h2>13. Contact Us</h2>
+  <p>If you have questions about this policy, want to exercise your data rights, or need to report a privacy concern, please contact us:</p>
+  <p><strong>Email:</strong> <a href="mailto:hello@befor.app">hello@befor.app</a></p>
+  <p><strong>Response time:</strong> Within 30 days of receipt</p>
+  <p>For GDPR-related requests, please include "GDPR Request" in the subject line and specify which right you wish to exercise.</p>
+
+  <hr>
+
+  <p class="footnote">This Privacy Policy applies to the Befor mobile application available on Google Play and the Apple App Store, and to the Befor backend services. Effective date: April 23, 2026.</p>
+</main>
+</body>
+</html>
